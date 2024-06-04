@@ -1,0 +1,38 @@
+.topnav {
+    background-color: hsl(0, 0%, 20%);
+    overflow: hidden;
+  }
+  
+
+  .topnav a {
+    float: left;
+    color: #b279d3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  
+  
+  .topnav a.active {
+    background-color: #7604aa;
+    color: rgb(255, 255, 255);
+  }
+
+  @media screen and (min-width: 360) {
+    .topnav a:hover{
+      font-size:10%;
+    }
+  }
+  @media screen and (min-width:740) {
+    .topnav a.active {
+      font-size:20%;
+    }
+  }
+  
